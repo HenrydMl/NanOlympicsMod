@@ -53,8 +53,13 @@ if (params.help) {
 // Input of sample names, conditions, and FAST5s path.
 Channel
 	.fromPath( params.samples )
-    .splitCsv(header: true, sep:'\t')
-    .map{ row-> tuple(row.SampleName, row.Condition, file(row.DataPath)) }
+    .splitCsv(header: true)
+	.map { row -> 
+        println "SampleName: ${row.SampleName}, Condition: ${row.Condition}, DataPath: ${row.DataPath}"
+        def tuple = tuple(row.SampleName, row.Condition, row.DataPath)
+        println "Tuple: $tuple"
+        return tuple }
+    // .map{ row-> tuple(row.SampleName, row.Condition, row.DataPath) }
     .set{multi2single_annot}
 
 Channel
