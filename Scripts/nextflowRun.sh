@@ -1,12 +1,22 @@
 #!/bin/bash
+#SBATCH --job-name=Ceci_test
+#SBATCH --time=24:00:00  # hh:mm:ss
+#
+#SBATCH --ntasks=1
+#SBATCH --mem-per-cpu=4000  # megabytes
+#SBATCH --partition=batch
+#
+#SBATCH --mail-user=henry.del.marmol@ulb.be
+#SBATCH --mail-type=ALL
 
-#PBS -S /bin/sh
-#PBS -N NanOlympicsMod
-#PBS -l select=1:ncpus=1:mem=2G
-#PBS -M emailAddress
-#PBS -m e
+module purge
+module load Java/11.0.20
 
-source /path/to/activate /path/to/nextflow/environment
-cd /path/to/pipeline/folder
-nextflow -c pipeline.conf run pipeline.nf -w /path/to/work/folder/
-source /path/to/deactivate
+WORKDIR=$GLOBALSCRATCH
+#mkdir -p $WORKDIR
+cd $WORKDIR
+
+export SINGULARITY_CACHEDIR=/globalscratch/ulb/mlg/hdmarmol/caches
+export APPTAINER_CACHEDIR=/globalscratch/ulb/mlg/hdmarmol/caches
+
+/home/ulb/bctr/bbeahan/nextflow -c //home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.conf run /home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf
