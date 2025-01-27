@@ -72,7 +72,6 @@ Channel
 Channel
 	.fromPath(params.transcriptome_fasta, checkIfExists:true)
 	.into{transcriptome_fasta_minimap2;transcriptome_fasta_mines;transcriptome_fasta_nanom6a;transcriptome_fasta_differr;transcriptome_fasta_tombo1;transcriptome_fasta_tombo2;transcriptome_fasta_tombo3;transcriptome_fasta_nanopolish;transcriptome_fasta_dena;transcriptome_fasta_epinanoSVM;transcriptome_fasta_epinanoError;transcriptome_fasta_nanopolish1;transcriptome_fasta_xpore;transcriptome_fasta_nanocompore2}
-
 // Input of transcriptome fasta index.
 Channel
 	.fromPath(params.transcriptome_fai, checkIfExists:true)
