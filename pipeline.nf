@@ -44,11 +44,11 @@ def helpMessage() {
     """.stripIndent()
 }
 
-// Show help message
-if (params.help) {
-    helpMessage()
-    exit 0
-}
+// // Show help message
+// if (params.help) {
+//     helpMessage()
+//     exit 0
+// }
 
 // Input of sample names, conditions, and FAST5s path.
 Channel
@@ -64,7 +64,7 @@ Channel
 
 Channel
 	.fromPath( params.samples )
-    .splitCsv(header: true, sep:'\t')
+    .splitCsv(header: true)
     .map{ row-> tuple(row.SampleName, row.Condition, file(row.DataPath)) }
     .set{tombo_annot}
 

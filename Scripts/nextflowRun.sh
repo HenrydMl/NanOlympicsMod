@@ -19,4 +19,4 @@ cd $WORKDIR
 export SINGULARITY_CACHEDIR=/globalscratch/ulb/mlg/hdmarmol/caches
 export APPTAINER_CACHEDIR=/globalscratch/ulb/mlg/hdmarmol/caches
 
-/home/ulb/bctr/bbeahan/nextflow -c //home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.conf run /home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf
+/home/ulb/bctr/bbeahan/nextflow -c /home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.conf run /home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf
