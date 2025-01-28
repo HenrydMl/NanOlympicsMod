@@ -1,0 +1,480 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) releases/2023a   2) tis/2018.01
+N E X T F L O W  ~  version 22.10.0
+Launching `/home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf` [disturbed_mcnulty] DSL1 - revision: 91e2af624e
+WARN: The `into` operator should be used to connect two or more target channels -- consider replacing it with `.set { bed_nanocompore }`
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+[-        ] process > multi2single -
+
+[-        ] process > multi2single  -
+[-        ] process > fastq         -
+[-        ] process > minimap2      -
+[-        ] process > minimap2Merge -
+[-        ] process > tombo1        -
+[-        ] process > tombo2        -
+[-        ] process > tombo3        -
+[-        ] process > nanom6a       -
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[32/ac38cf] process > multi2single (1) [ 50%] 1 of 2, cached: 1
+[-        ] process > fastq            -
+[-        ] process > minimap2         -
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+
+[32/ac38cf] process > multi2single (1) [ 50%] 1 of 2, cached: 1
+[-        ] process > fastq            -
+[-        ] process > minimap2         -
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (1)
+[84/5c9b2f] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Pulling Singularity image docker://hdmarmol/dockers:latest [cache /globalscratch/ulb/mlg/hdmarmol/caches/hdmarmol-dockers-latest.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (2)
+[84/5c9b2f] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[07/43a4c0] process > nanopolish1 (1)  [  0%] 0 of 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (2)
+[84/5c9b2f] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[07/43a4c0] process > nanopolish1 (1)  [  0%] 0 of 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (2)
+[84/5c9b2f] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[07/43a4c0] process > nanopolish1 (1)  [  0%] 0 of 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+
+executor >  slurm (2)
+[84/5c9b2f] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[07/43a4c0] process > nanopolish1 (1)  [  0%] 0 of 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Error executing process > 'nanopolish1 (1)'
+
+Caused by:
+  Process `nanopolish1 (1)` terminated with an error exit status (1)
+
+Command executed:
+
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/
+  #mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/
+  
+  /usr/bin/nanopolish/nanopolish index -d /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FAST5/ /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq
+  
+  #/usr/bin/nanopolish/nanopolish eventalign --reads /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq --bam /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/genomeAlignment/minimap.sort.bam --genome genome.fa --samples --signal-index --scale-events -n --summary /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/summary.txt --threads 6 > /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/eventalign_readName.txt
+  
+  #/usr/bin/nanopolish/nanopolish eventalign --reads /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq --bam /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/genomeAlignment/minimap.sort.bam --genome genome.fa --signal-index --scale-events --summary /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/summary.txt --threads 6 > /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/eventalign_readIndex.txt
+  
+  /usr/bin/nanopolish/nanopolish eventalign --reads /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq --bam /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/transcriptomeAlignment/minimap.filt.sort.bam --genome transcriptome.fa --samples --signal-index --scale-events -n --summary /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/summary.txt --threads 6 > /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/eventalign_readName.txt
+  
+  /usr/bin/nanopolish/nanopolish eventalign --reads /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq --bam /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/transcriptomeAlignment/minimap.filt.sort.bam --genome transcriptome.fa --signal-index --scale-events --summary /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/summary.txt --threads 6 > /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/eventalign_readIndex.txt
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5A.c line 401 in H5Aopen(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 195 in H5G_loc(): invalid group ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5A.c line 401 in H5Aopen(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 195 in H5G_loc(): invalid group ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5G.c line 812 in H5Gclose(): not a group
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5L.c line 1093 in H5Lget_name_by_idx(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 173 in H5G_loc(): invalid file ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5D.c line 340 in H5Dopen2(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 173 in H5G_loc(): invalid file ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5L.c line 1093 in H5Lget_name_by_idx(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 173 in H5G_loc(): invalid file ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5G.c line 454 in H5Gopen2(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 173 in H5G_loc(): invalid file ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5F.c line 781 in H5Fclose(): invalid file identifier
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/work/07/43a4c01c30bc6da8a5c46b6aed5a8c
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+
+
+WARN: Killing running tasks (1)
+
+executor >  slurm (2)
+[84/5c9b2f] process > multi2single (2) [100%] 1 of 1, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[07/43a4c0] process > nanopolish1 (1)  [100%] 1 of 1, failed: 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Error executing process > 'nanopolish1 (1)'
+
+Caused by:
+  Process `nanopolish1 (1)` terminated with an error exit status (1)
+
+Command executed:
+
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/
+  #mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/
+  
+  /usr/bin/nanopolish/nanopolish index -d /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FAST5/ /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq
+  
+  #/usr/bin/nanopolish/nanopolish eventalign --reads /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq --bam /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/genomeAlignment/minimap.sort.bam --genome genome.fa --samples --signal-index --scale-events -n --summary /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/summary.txt --threads 6 > /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/eventalign_readName.txt
+  
+  #/usr/bin/nanopolish/nanopolish eventalign --reads /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq --bam /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/genomeAlignment/minimap.sort.bam --genome genome.fa --signal-index --scale-events --summary /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/summary.txt --threads 6 > /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/genome/eventalign_readIndex.txt
+  
+  /usr/bin/nanopolish/nanopolish eventalign --reads /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq --bam /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/transcriptomeAlignment/minimap.filt.sort.bam --genome transcriptome.fa --samples --signal-index --scale-events -n --summary /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/summary.txt --threads 6 > /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/eventalign_readName.txt
+  
+  /usr/bin/nanopolish/nanopolish eventalign --reads /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/FASTQ/singleReadsFASTQ.fastq --bam /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/transcriptomeAlignment/minimap.filt.sort.bam --genome transcriptome.fa --signal-index --scale-events --summary /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/summary.txt --threads 6 > /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/WT/MAESTRI_WT/nanopolish/transcriptome/eventalign_readIndex.txt
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5A.c line 401 in H5Aopen(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 195 in H5G_loc(): invalid group ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5A.c line 401 in H5Aopen(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 195 in H5G_loc(): invalid group ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5G.c line 812 in H5Gclose(): not a group
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5L.c line 1093 in H5Lget_name_by_idx(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 173 in H5G_loc(): invalid file ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5D.c line 340 in H5Dopen2(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 173 in H5G_loc(): invalid file ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5L.c line 1093 in H5Lget_name_by_idx(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 173 in H5G_loc(): invalid file ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5G.c line 454 in H5Gopen2(): not a location
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+    #001: H5Gloc.c line 173 in H5G_loc(): invalid file ID
+      major: Invalid arguments to routine
+      minor: Bad value
+  HDF5-DIAG: Error detected in HDF5 (1.8.14) thread 23046384506432:
+    #000: H5F.c line 781 in H5Fclose(): invalid file identifier
+      major: Invalid arguments to routine
+      minor: Inappropriate type
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/work/07/43a4c01c30bc6da8a5c46b6aed5a8c
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+
+
+

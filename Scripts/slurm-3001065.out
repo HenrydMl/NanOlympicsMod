@@ -176,3 +176,282 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (2)
+[90/f9d24e] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1
+[-        ] process > minimap2         -
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (2)
+[90/f9d24e] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1
+[-        ] process > minimap2         -
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Pulling Singularity image docker://bproject/minimap2:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-minimap2-v1.img]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (3)
+[90/f9d24e] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1
+[b9/04092e] process > minimap2 (1)     [  0%] 0 of 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Pulling Singularity image docker://bproject/minimap2:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-minimap2-v1.img]
+
+executor >  slurm (3)
+[90/f9d24e] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1
+[b9/04092e] process > minimap2 (1)     [  0%] 0 of 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+
+
+executor >  slurm (3)
+[90/f9d24e] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Pulling Singularity image docker://bproject/nanopolish:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-nanopolish-v1.img]
+
+executor >  slurm (3)
+[90/f9d24e] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      [  0%] 0 of 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+
+Error executing process > 'nanopolish1 (1)'
+
+Caused by:
+  Failed to submit process to grid scheduler for execution
+
+Command executed:
+
+  sbatch .command.run
+
+Command exit status:
+  1
+
+Command output:
+  sbatch: error: Batch job submission failed: Time limit specification required, but not provided
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/work/59/cd88673eacc0c514f25d7852a4a558
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+
+WARN: Killing running tasks (1)
+
+executor >  slurm (3)
+[90/f9d24e] process > multi2single (2) [100%] 1 of 1, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[59/cd8867] process > nanopolish1 (1)  [100%] 1 of 1, failed: 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Error executing process > 'nanopolish1 (1)'
+
+Caused by:
+  Failed to submit process to grid scheduler for execution
+
+Command executed:
+
+  sbatch .command.run
+
+Command exit status:
+  1
+
+Command output:
+  sbatch: error: Batch job submission failed: Time limit specification required, but not provided
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/work/59/cd88673eacc0c514f25d7852a4a558
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+
+
+
