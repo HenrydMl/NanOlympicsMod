@@ -1,0 +1,499 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) releases/2023a   2) tis/2018.01
+N E X T F L O W  ~  version 22.10.0
+Launching `/home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf` [desperate_waddington] DSL1 - revision: 91e2af624e
+WARN: The `into` operator should be used to connect two or more target channels -- consider replacing it with `.set { bed_nanocompore }`
+[-        ] process > multi2single  -
+[-        ] process > fastq         -
+[-        ] process > minimap2      -
+[-        ] process > minimap2Merge -
+[-        ] process > tombo1        -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+
+[-        ] process > multi2single  -
+[-        ] process > fastq         -
+[-        ] process > minimap2      -
+[-        ] process > minimap2Merge -
+[-        ] process > tombo1        -
+[-        ] process > tombo2        -
+[-        ] process > tombo3        -
+[-        ] process > nanom6a       -
+[-        ] process > differr       -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[69/edfa90] process > multi2single (1) [100%] 2 of 2, cached: 2 ✔
+[-        ] process > fastq            -
+[-        ] process > minimap2         -
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[69/edfa90] process > multi2single (1) [100%] 2 of 2, cached: 2 ✔
+[f7/d734a6] process > fastq (2)        [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (2)     [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[e5/92d01c] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[69/edfa90] process > multi2single (1) [100%] 2 of 2, cached: 2 ✔
+[f7/d734a6] process > fastq (2)        [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (2)     [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2Merge    [  0%] 0 of 1
+[-        ] process > tombo1           [  0%] 0 of 1
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[e5/92d01c] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      [  0%] 0 of 2
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+Pulling Singularity image docker://bproject/drummer:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-drummer-v1.img]
+Pulling Singularity image docker://bproject/differr:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-differr-v1.img]
+Pulling Singularity image docker://bproject/eligos:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-eligos-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (4)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[f7/d734a6] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (2)      [100%] 2 of 2, cached: 2 ✔
+[7b/e04396] process > minimap2Merge (1) [  0%] 0 of 1
+[1c/de2d9d] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[-        ] process > differr           -
+[-        ] process > eligos            -
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer           -
+[70/60c5de] process > nanopolish1 (2)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+Pulling Singularity image docker://bproject/drummer:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-drummer-v1.img]
+Pulling Singularity image docker://bproject/differr:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-differr-v1.img]
+Pulling Singularity image docker://bproject/eligos:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-eligos-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (4)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[f7/d734a6] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (2)      [100%] 2 of 2, cached: 2 ✔
+[7b/e04396] process > minimap2Merge (1) [  0%] 0 of 1
+[1c/de2d9d] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[-        ] process > differr           -
+[-        ] process > eligos            -
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer           -
+[70/60c5de] process > nanopolish1 (2)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+Pulling Singularity image docker://bproject/drummer:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-drummer-v1.img]
+Pulling Singularity image docker://bproject/differr:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-differr-v1.img]
+Pulling Singularity image docker://bproject/eligos:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-eligos-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (4)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[f7/d734a6] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (2)      [100%] 2 of 2, cached: 2 ✔
+[7b/e04396] process > minimap2Merge (1) [  0%] 0 of 1
+[1c/de2d9d] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[-        ] process > differr           -
+[-        ] process > eligos            -
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer           -
+[70/60c5de] process > nanopolish1 (2)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+Pulling Singularity image docker://bproject/drummer:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-drummer-v1.img]
+Pulling Singularity image docker://bproject/differr:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-differr-v1.img]
+Pulling Singularity image docker://bproject/eligos:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-eligos-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+WARN: Killing running tasks (4)
+executor >  slurm (4)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[f7/d734a6] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (2)      [100%] 2 of 2, cached: 2 ✔
+[7b/e04396] process > minimap2Merge (1) [  0%] 0 of 1
+[1c/de2d9d] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[-        ] process > differr           -
+[-        ] process > eligos            -
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer           -
+[70/60c5de] process > nanopolish1 (2)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+Pulling Singularity image docker://bproject/drummer:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-drummer-v1.img]
+Pulling Singularity image docker://bproject/differr:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-differr-v1.img]
+Pulling Singularity image docker://bproject/eligos:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-eligos-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+Error executing process > 'differr (1)'
+
+Caused by:
+  Failed to pull singularity image
+  command: singularity pull  --name bproject-differr-v1.img.pulling.1738242271702 docker://bproject/differr:v1 > /dev/null
+  status : 255
+  message:
+    INFO:    Converting OCI blobs to SIF format
+    INFO:    Starting build...
+    Getting image source signatures
+    Copying blob sha256:90cf466d3c4e0eecc628f06ce37cf6d25650739798e6fe5af7697caf2e2156d9
+    Copying blob sha256:0580a62b0642a387d0670f0e29420938938dca0f1dc9ec317bf4de24170491bf
+    Copying blob sha256:e38c359b6cb7fbfb31641f2d6a5ac783552581cee397650810198e444f6cdddf
+    Copying blob sha256:c610536171e3c233fc979d34130a90e9c9bc030425e5af141fd0c3aa8bcf5fb2
+    Copying blob sha256:54c77a758ce8e0fb25fda4b19d63fee29ab6c71939989d3aaea9b88c101117b5
+    Copying config sha256:367b5082fa4af4e8b3608582d34d85039cce524eceb4f82e9ce4f4f843b9036e
+    Writing manifest to image destination
+    Storing signatures
+    FATAL:   While making image from oci registry: error fetching image to cache: while building SIF from layers: conveyor failed to get: while getting config: no descriptor found for reference "4fac01ad3768dd956c5b24ff1f2286478a9467f0e7896ebd11b5c737e4569787"
+
+
+
+
+
+executor >  slurm (4)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[f7/d734a6] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (2)      [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2Merge (1) -
+[-        ] process > tombo1 (1)        -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[-        ] process > differr           -
+[-        ] process > eligos            -
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer           -
+[-        ] process > nanopolish1 (2)   -
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+Pulling Singularity image docker://bproject/drummer:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-drummer-v1.img]
+Pulling Singularity image docker://bproject/differr:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-differr-v1.img]
+Pulling Singularity image docker://bproject/eligos:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-eligos-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+Error executing process > 'differr (1)'
+
+Caused by:
+  Failed to pull singularity image
+  command: singularity pull  --name bproject-differr-v1.img.pulling.1738242271702 docker://bproject/differr:v1 > /dev/null
+  status : 255
+  message:
+    INFO:    Converting OCI blobs to SIF format
+    INFO:    Starting build...
+    Getting image source signatures
+    Copying blob sha256:90cf466d3c4e0eecc628f06ce37cf6d25650739798e6fe5af7697caf2e2156d9
+    Copying blob sha256:0580a62b0642a387d0670f0e29420938938dca0f1dc9ec317bf4de24170491bf
+    Copying blob sha256:e38c359b6cb7fbfb31641f2d6a5ac783552581cee397650810198e444f6cdddf
+    Copying blob sha256:c610536171e3c233fc979d34130a90e9c9bc030425e5af141fd0c3aa8bcf5fb2
+    Copying blob sha256:54c77a758ce8e0fb25fda4b19d63fee29ab6c71939989d3aaea9b88c101117b5
+    Copying config sha256:367b5082fa4af4e8b3608582d34d85039cce524eceb4f82e9ce4f4f843b9036e
+    Writing manifest to image destination
+    Storing signatures
+    FATAL:   While making image from oci registry: error fetching image to cache: while building SIF from layers: conveyor failed to get: while getting config: no descriptor found for reference "4fac01ad3768dd956c5b24ff1f2286478a9467f0e7896ebd11b5c737e4569787"
+
+
+
+
+

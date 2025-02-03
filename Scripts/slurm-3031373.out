@@ -1,0 +1,620 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) releases/2023a   2) tis/2018.01
+N E X T F L O W  ~  version 22.10.0
+Launching `/home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf` [cheesy_dalembert] DSL1 - revision: 91e2af624e
+WARN: The `into` operator should be used to connect two or more target channels -- consider replacing it with `.set { bed_nanocompore }`
+[-        ] process > multi2single  -
+[-        ] process > fastq         -
+[-        ] process > minimap2      -
+[-        ] process > minimap2Merge -
+[-        ] process > tombo1        -
+[-        ] process > tombo2        -
+[-        ] process > tombo3        -
+[-        ] process > nanom6a       -
+[-        ] process > differr       -
+[-        ] process > eligos        -
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+
+[-        ] process > multi2single  -
+[-        ] process > fastq         -
+[-        ] process > minimap2      -
+[-        ] process > minimap2Merge -
+[-        ] process > tombo1        -
+[-        ] process > tombo2        -
+[-        ] process > tombo3        -
+[-        ] process > nanom6a       -
+[-        ] process > differr       -
+[-        ] process > eligos        -
+[-        ] process > mines         -
+[-        ] process > dena          -
+[-        ] process > epinanoSVM    -
+[-        ] process > epinanoError  -
+[-        ] process > nanodoc       -
+[-        ] process > drummer       -
+[-        ] process > nanopolish1   -
+[-        ] process > xpore1        -
+[-        ] process > xpore2        -
+[-        ] process > nanocompore1  -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[69/edfa90] process > multi2single (1) [100%] 2 of 2, cached: 2 ✔
+[-        ] process > fastq            -
+[-        ] process > minimap2         -
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[69/edfa90] process > multi2single (1) [100%] 2 of 2, cached: 2 ✔
+[d6/406e63] process > fastq (1)        [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (1)     [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           [  0%] 0 of 1
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[e5/92d01c] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (3)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[d6/406e63] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[82/9bab55] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[-        ] process > differr           -
+[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[1a/cdf8b2] process > nanopolish1 (2)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+Pulling Singularity image docker://hdmarmol/dockers:differroriginal [cache /globalscratch/ulb/mlg/hdmarmol/caches/hdmarmol-dockers-differroriginal.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (3)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[d6/406e63] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[82/9bab55] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[-        ] process > differr           -
+[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[5b/e8fa75] process > nanopolish1 (1)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+Pulling Singularity image docker://hdmarmol/dockers:differroriginal [cache /globalscratch/ulb/mlg/hdmarmol/caches/hdmarmol-dockers-differroriginal.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (3)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[d6/406e63] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[82/9bab55] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[-        ] process > differr           -
+[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[5b/e8fa75] process > nanopolish1 (1)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+Pulling Singularity image docker://hdmarmol/dockers:differroriginal [cache /globalscratch/ulb/mlg/hdmarmol/caches/hdmarmol-dockers-differroriginal.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (4)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[d6/406e63] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[82/9bab55] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[8f/d04586] process > differr (1)       [  0%] 0 of 1
+[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[5b/e8fa75] process > nanopolish1 (1)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (4)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[d6/406e63] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[82/9bab55] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[8f/d04586] process > differr (1)       [  0%] 0 of 1
+[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[5b/e8fa75] process > nanopolish1 (1)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+WARN: Killing running tasks (3)
+executor >  slurm (4)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[d6/406e63] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[82/9bab55] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[8f/d04586] process > differr (1)       [  0%] 0 of 1
+[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[5b/e8fa75] process > nanopolish1 (1)   [  0%] 0 of 2
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Error executing process > 'differr (1)'
+
+Caused by:
+  Process `differr (1)` terminated with an error exit status (1)
+
+Command executed:
+
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results/differr/
+  
+  differr -p 6 		$(for file in minimap.sortG.2*.bam; do echo -a $file; done) 		$(for file in minimap.sortG.1*.bam; do echo -b $file; done) 		-r genome.fa -o /globalscratch/ulb/mlg/hdmarmol/nanolympics/results/differr/differrOut.bed 		-f 1
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  /usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py:32: FutureWarning: DataFrame.groupby with axis=1 is deprecated. Do `frame.T.groupby(...)` without axis instead.
+  /usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py:33: FutureWarning: DataFrame.groupby with axis=1 is deprecated. Do `frame.T.groupby(...)` without axis instead.
+  joblib.externals.loky.process_executor._RemoteTraceback: 
+  """
+  Traceback (most recent call last):
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+      r = call_item()
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/externals/loky/process_executor.py", line 291, in __call__
+      return self.fn(*self.args, **self.kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 598, in __call__
+      return [func(*args, **kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 598, in <listcomp>
+      return [func(*args, **kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py", line 65, in _parallel_differr
+      stats, mismatch_counts = test_significant_der_sites(counts, fdr_threshold, fasta)
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/statistics.py", line 33, in test_significant_der_sites
+      c = filter_empty_cols(c.unstack(-1))
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/statistics.py", line 22, in filter_empty_cols
+      c_t = c_t[c_t.any(1)]
+  TypeError: DataFrame.any() takes 1 positional argument but 2 were given
+  """
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "/usr/local/bin/differr", line 33, in <module>
+      sys.exit(load_entry_point('differr==0.2', 'console_scripts', 'differr')())
+    File "/usr/local/lib/python3.10/dist-packages/click-8.1.8-py3.10.egg/click/core.py", line 1161, in __call__
+      return self.main(*args, **kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/click-8.1.8-py3.10.egg/click/core.py", line 1082, in main
+      rv = self.invoke(ctx)
+    File "/usr/local/lib/python3.10/dist-packages/click-8.1.8-py3.10.egg/click/core.py", line 1443, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+    File "/usr/local/lib/python3.10/dist-packages/click-8.1.8-py3.10.egg/click/core.py", line 788, in invoke
+      return __callback(*args, **kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py", line 170, in differr
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py", line 101, in run_differr_analysis
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 2007, in __call__
+      return output if self.return_generator else list(output)
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 1650, in _get_outputs
+      yield from self._retrieve()
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 1754, in _retrieve
+      self._raise_error_fast()
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 1789, in _raise_error_fast
+      error_job.get_result(self.timeout)
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 745, in get_result
+      return self._return_or_raise()
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 763, in _return_or_raise
+      raise self._result
+  TypeError: DataFrame.any() takes 1 positional argument but 2 were given
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/work/8f/d045869f08148134dfbb80198fb278
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+
+
+executor >  slurm (4)
+[69/edfa90] process > multi2single (1)  [100%] 2 of 2, cached: 2 ✔
+[d6/406e63] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1 (1)        -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[8f/d04586] process > differr (1)       [100%] 1 of 1, failed: 1 ✘
+[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > nanopolish1 (1)   -
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Error executing process > 'differr (1)'
+
+Caused by:
+  Process `differr (1)` terminated with an error exit status (1)
+
+Command executed:
+
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results/differr/
+  
+  differr -p 6 		$(for file in minimap.sortG.2*.bam; do echo -a $file; done) 		$(for file in minimap.sortG.1*.bam; do echo -b $file; done) 		-r genome.fa -o /globalscratch/ulb/mlg/hdmarmol/nanolympics/results/differr/differrOut.bed 		-f 1
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  /usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py:32: FutureWarning: DataFrame.groupby with axis=1 is deprecated. Do `frame.T.groupby(...)` without axis instead.
+  /usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py:33: FutureWarning: DataFrame.groupby with axis=1 is deprecated. Do `frame.T.groupby(...)` without axis instead.
+  joblib.externals.loky.process_executor._RemoteTraceback: 
+  """
+  Traceback (most recent call last):
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+      r = call_item()
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/externals/loky/process_executor.py", line 291, in __call__
+      return self.fn(*self.args, **self.kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 598, in __call__
+      return [func(*args, **kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 598, in <listcomp>
+      return [func(*args, **kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py", line 65, in _parallel_differr
+      stats, mismatch_counts = test_significant_der_sites(counts, fdr_threshold, fasta)
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/statistics.py", line 33, in test_significant_der_sites
+      c = filter_empty_cols(c.unstack(-1))
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/statistics.py", line 22, in filter_empty_cols
+      c_t = c_t[c_t.any(1)]
+  TypeError: DataFrame.any() takes 1 positional argument but 2 were given
+  """
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "/usr/local/bin/differr", line 33, in <module>
+      sys.exit(load_entry_point('differr==0.2', 'console_scripts', 'differr')())
+    File "/usr/local/lib/python3.10/dist-packages/click-8.1.8-py3.10.egg/click/core.py", line 1161, in __call__
+      return self.main(*args, **kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/click-8.1.8-py3.10.egg/click/core.py", line 1082, in main
+      rv = self.invoke(ctx)
+    File "/usr/local/lib/python3.10/dist-packages/click-8.1.8-py3.10.egg/click/core.py", line 1443, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+    File "/usr/local/lib/python3.10/dist-packages/click-8.1.8-py3.10.egg/click/core.py", line 788, in invoke
+      return __callback(*args, **kwargs)
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py", line 170, in differr
+    File "/usr/local/lib/python3.10/dist-packages/differr-0.2-py3.10.egg/differr/main.py", line 101, in run_differr_analysis
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 2007, in __call__
+      return output if self.return_generator else list(output)
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 1650, in _get_outputs
+      yield from self._retrieve()
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 1754, in _retrieve
+      self._raise_error_fast()
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 1789, in _raise_error_fast
+      error_job.get_result(self.timeout)
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 745, in get_result
+      return self._return_or_raise()
+    File "/usr/local/lib/python3.10/dist-packages/joblib-1.4.2-py3.10.egg/joblib/parallel.py", line 763, in _return_or_raise
+      raise self._result
+  TypeError: DataFrame.any() takes 1 positional argument but 2 were given
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/work/8f/d045869f08148134dfbb80198fb278
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+
+

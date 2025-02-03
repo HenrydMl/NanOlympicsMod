@@ -1,0 +1,8 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) releases/2023a   2) tis/2018.01
+N E X T F L O W  ~  version 22.10.0
+Unknown method invocation `toMega` on ConfigObject type
+
+

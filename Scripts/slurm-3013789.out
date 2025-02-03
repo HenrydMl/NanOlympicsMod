@@ -96,3 +96,233 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (1)
+[cf/b510b4] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (2)
+[cf/b510b4] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[cb/caebe8] process > nanopolish1 (1)  [  0%] 0 of 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (2)
+[cf/b510b4] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[cb/caebe8] process > nanopolish1 (1)  [  0%] 0 of 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+
+executor >  slurm (2)
+[cf/b510b4] process > multi2single (2) [ 50%] 1 of 2, cached: 1
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[cb/caebe8] process > nanopolish1 (1)  [  0%] 0 of 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Error executing process > 'multi2single (2)'
+
+Caused by:
+  Process `multi2single (2)` terminated for an unknown reason -- Likely it has been terminated by the external system
+
+Command executed:
+
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/KO
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/KO/MAESTRI_MD
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/KO/MAESTRI_MD/FAST5/
+  
+  multi_to_single_fast5 --recursive --threads 6 --input_path /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/ --save_path /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/KO/MAESTRI_MD/FAST5/
+
+Command exit status:
+  -
+
+Command output:
+  (empty)
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/work/cf/b510b48ba389b7d751276bd001949e
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+
+WARN: Killing running tasks (1)
+
+executor >  slurm (2)
+[cf/b510b4] process > multi2single (2) [100%] 2 of 2, cached: 1, failed: 1 ✘
+[4a/8d4b9c] process > fastq (1)        [100%] 1 of 1, cached: 1 ✔
+[b9/04092e] process > minimap2 (1)     [100%] 1 of 1, cached: 1 ✔
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1 (1)  -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Error executing process > 'multi2single (2)'
+
+Caused by:
+  Process `multi2single (2)` terminated for an unknown reason -- Likely it has been terminated by the external system
+
+Command executed:
+
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/KO
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/KO/MAESTRI_MD
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/KO/MAESTRI_MD/FAST5/
+  
+  multi_to_single_fast5 --recursive --threads 6 --input_path /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/ --save_path /globalscratch/ulb/mlg/hdmarmol/nanolympics/results2/KO/MAESTRI_MD/FAST5/
+
+Command exit status:
+  -
+
+Command output:
+  (empty)
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/work/cf/b510b48ba389b7d751276bd001949e
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+
+
