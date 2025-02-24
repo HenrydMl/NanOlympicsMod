@@ -92,7 +92,7 @@ Channel
 	.fromPath(params.genomebed, checkIfExists:true)
 	.into{bed_eligos;bed_nanodoc}
 
-// Input of genome bed.
+// Input of transcriptome bed.
 Channel
 	.fromPath(params.transcriptomebed, checkIfExists:true)
 	.into{bed_nanocompore}
@@ -421,7 +421,9 @@ process nanom6a {
     script:
     if(params.nanom6a)
     """
-    	java -jar /picard/build/libs/picard.jar CreateSequenceDictionary -R genome.fa -O genome.dict
+    	# Set Java memory limit dynamically based on Nextflow's allocated memory
+        
+		java -jar /picard/build/libs/picard.jar CreateSequenceDictionary -R genome.fa -O genome.dict
 		java -jar /picard/build/libs/picard.jar CreateSequenceDictionary -R transcriptome.fa -O transcriptome.dict
 
 		mkdir -p ${params.resultsDir}/${condition1}/nanom6a/
@@ -440,6 +442,7 @@ process nanom6a {
     """
 	else
 	"""
+		
     	java -jar /picard/build/libs/picard.jar CreateSequenceDictionary R=genome.fa O=genome.dict
 		java -jar /picard/build/libs/picard.jar CreateSequenceDictionary R=transcriptome.fa O=transcriptome.dict
     """

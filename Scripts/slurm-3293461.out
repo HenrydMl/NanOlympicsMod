@@ -1,0 +1,511 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) releases/2023a   2) tis/2018.01
+N E X T F L O W  ~  version 22.10.0
+Launching `/home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf` [serene_kilby] DSL1 - revision: 75857156f9
+WARN: The `into` operator should be used to connect two or more target channels -- consider replacing it with `.set { bed_nanocompore }`
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+[-        ] process > multi2single  -
+[-        ] process > fastq         -
+[-        ] process > minimap2      -
+[-        ] process > minimap2Merge -
+[-        ] process > tombo1        -
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2
+[-        ] process > fastq            -
+[-        ] process > minimap2         -
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)        [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (2)     [100%] 1 of 1, cached: 1
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)        [100%] 2 of 2, cached: 2 ✔
+[29/edba84] process > minimap2 (1)     [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2Merge    -
+[df/093340] process > tombo1 (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[c7/571065] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)        [100%] 2 of 2, cached: 2 ✔
+[29/edba84] process > minimap2 (1)     [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2Merge    -
+[df/093340] process > tombo1 (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo2           [  0%] 0 of 1
+[-        ] process > tombo3           [  0%] 0 of 1
+[-        ] process > nanom6a          -
+[e9/51fa1a] process > differr (1)      [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[c7/571065] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)      [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (2)  [100%] 2 of 2, cached: 2 ✔
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[ae/e2f0d2] process > nanocompore1 (1) [100%] 1 of 1, cached: 1
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (3)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[29/edba84] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [  0%] 0 of 1
+[f7/68519c] process > tombo3 (1)        [  0%] 0 of 1
+[-        ] process > nanom6a           [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[-        ] process > xpore1            [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[ab/dad37f] process > yanocomp1 (1)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (8)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[29/edba84] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [  0%] 0 of 1
+[f7/68519c] process > tombo3 (1)        [  0%] 0 of 1
+[a9/c83b0c] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[56/9951dc] process > dena (1)          [  0%] 0 of 1
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[48/c64d12] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[7b/97de5d] process > yanocomp1 (2)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (8)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[29/edba84] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [  0%] 0 of 1
+[f7/68519c] process > tombo3 (1)        [  0%] 0 of 1
+[a9/c83b0c] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[56/9951dc] process > dena (1)          [  0%] 0 of 1
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[48/c64d12] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[7b/97de5d] process > yanocomp1 (2)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (8)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[29/edba84] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [100%] 1 of 1 ✔
+[f7/68519c] process > tombo3 (1)        [100%] 1 of 1 ✔
+[a9/c83b0c] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[56/9951dc] process > dena (1)          [  0%] 0 of 1
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[48/c64d12] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[7b/97de5d] process > yanocomp1 (2)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (9)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[29/edba84] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [100%] 1 of 1 ✔
+[f7/68519c] process > tombo3 (1)        [100%] 1 of 1 ✔
+[a9/c83b0c] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[b7/66d0ec] process > mines (1)         [  0%] 0 of 1
+[56/9951dc] process > dena (1)          [  0%] 0 of 1
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[48/c64d12] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[7b/97de5d] process > yanocomp1 (2)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+WARN: Killing running tasks (7)
+executor >  slurm (9)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[29/edba84] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [100%] 1 of 1 ✔
+[f7/68519c] process > tombo3 (1)        [100%] 1 of 1 ✔
+[a9/c83b0c] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[b7/66d0ec] process > mines (1)         [  0%] 0 of 1
+[56/9951dc] process > dena (1)          [  0%] 0 of 1
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[48/c64d12] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[7b/97de5d] process > yanocomp1 (2)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Error executing process > 'm6anet1 (1)'
+
+Caused by:
+  Failed to pull singularity image
+  command: singularity pull  --name bproject-m6anet-v1.img.pulling.1739543862693 docker://bproject/m6anet:v1 > /dev/null
+  status : 255
+  message:
+    INFO:    Converting OCI blobs to SIF format
+    INFO:    Starting build...
+    Getting image source signatures
+    Copying blob sha256:463d8c86d06958a24481830b55c28c4dbd99669b28b3a23fe5fe8ea9a58b8d15
+    Copying blob sha256:80f5b39c092c5d8217278bcdd1b8d3d4ac35f6b75eb5885ff084f937915249a3
+    Copying blob sha256:9f0ba24aa7d77fad572ec8b4addc611cabd8a808769d5df5ce01975c286fa748
+    Copying blob sha256:91172d145eacf5851ee3fa7f71c923e51c394c03628010de77eb30f73cee8a56
+    Copying blob sha256:e96e057aae67380a4ddb16c337c5c3669d97fdff69ec537f02aa2cc30d814281
+    Copying config sha256:26b0289cfa1e850bfe415d22faa282ddb739223c13bb2323b9970aecc51a3e84
+    Writing manifest to image destination
+    Storing signatures
+    2025/02/14 15:38:09  info unpack layer: sha256:e96e057aae67380a4ddb16c337c5c3669d97fdff69ec537f02aa2cc30d814281
+    2025/02/14 15:38:10  info unpack layer: sha256:80f5b39c092c5d8217278bcdd1b8d3d4ac35f6b75eb5885ff084f937915249a3
+    2025/02/14 15:38:10  info unpack layer: sha256:9f0ba24aa7d77fad572ec8b4addc611cabd8a808769d5df5ce01975c286fa748
+    2025/02/14 15:38:14  info unpack layer: sha256:91172d145eacf5851ee3fa7f71c923e51c394c03628010de77eb30f73cee8a56
+    2025/02/14 15:39:22  info unpack layer: sha256:463d8c86d06958a24481830b55c28c4dbd99669b28b3a23fe5fe8ea9a58b8d15
+    INFO:    Creating SIF file...
+    FATAL:   While making image from oci registry: error fetching image to cache: while building SIF from layers: while creating squashfs: create command failed: signal: killed:
+
+
+
+
+
+executor >  slurm (9)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[29/edba84] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [100%] 1 of 1 ✔
+[f7/68519c] process > tombo3 (1)        [100%] 1 of 1 ✔
+[-        ] process > nanom6a (1)       -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines (1)         -
+[-        ] process > dena (1)          -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[-        ] process > xpore1 (2)        -
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1 (2)     -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Error executing process > 'm6anet1 (1)'
+
+Caused by:
+  Failed to pull singularity image
+  command: singularity pull  --name bproject-m6anet-v1.img.pulling.1739543862693 docker://bproject/m6anet:v1 > /dev/null
+  status : 255
+  message:
+    INFO:    Converting OCI blobs to SIF format
+    INFO:    Starting build...
+    Getting image source signatures
+    Copying blob sha256:463d8c86d06958a24481830b55c28c4dbd99669b28b3a23fe5fe8ea9a58b8d15
+    Copying blob sha256:80f5b39c092c5d8217278bcdd1b8d3d4ac35f6b75eb5885ff084f937915249a3
+    Copying blob sha256:9f0ba24aa7d77fad572ec8b4addc611cabd8a808769d5df5ce01975c286fa748
+    Copying blob sha256:91172d145eacf5851ee3fa7f71c923e51c394c03628010de77eb30f73cee8a56
+    Copying blob sha256:e96e057aae67380a4ddb16c337c5c3669d97fdff69ec537f02aa2cc30d814281
+    Copying config sha256:26b0289cfa1e850bfe415d22faa282ddb739223c13bb2323b9970aecc51a3e84
+    Writing manifest to image destination
+    Storing signatures
+    2025/02/14 15:38:09  info unpack layer: sha256:e96e057aae67380a4ddb16c337c5c3669d97fdff69ec537f02aa2cc30d814281
+    2025/02/14 15:38:10  info unpack layer: sha256:80f5b39c092c5d8217278bcdd1b8d3d4ac35f6b75eb5885ff084f937915249a3
+    2025/02/14 15:38:10  info unpack layer: sha256:9f0ba24aa7d77fad572ec8b4addc611cabd8a808769d5df5ce01975c286fa748
+    2025/02/14 15:38:14  info unpack layer: sha256:91172d145eacf5851ee3fa7f71c923e51c394c03628010de77eb30f73cee8a56
+    2025/02/14 15:39:22  info unpack layer: sha256:463d8c86d06958a24481830b55c28c4dbd99669b28b3a23fe5fe8ea9a58b8d15
+    INFO:    Creating SIF file...
+    FATAL:   While making image from oci registry: error fetching image to cache: while building SIF from layers: while creating squashfs: create command failed: signal: killed:
+
+
+
+
+
+slurmstepd: error: Detected 1 oom_kill event in StepId=3293461.batch. Some of the step tasks have been OOM Killed.

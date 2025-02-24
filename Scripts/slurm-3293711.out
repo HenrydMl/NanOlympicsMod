@@ -3,15 +3,13 @@ The following modules were not unloaded:
 
   1) releases/2023a   2) tis/2018.01
 N E X T F L O W  ~  version 22.10.0
-Launching `/home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf` [awesome_coulomb] DSL1 - revision: 3dfc1bb5e2
+Launching `/home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf` [spontaneous_leakey] DSL1 - revision: 75857156f9
 WARN: The `into` operator should be used to connect two or more target channels -- consider replacing it with `.set { bed_nanocompore }`
-SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
-Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
-SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
-Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
 [-        ] process > multi2single -
-[-        ] process > fastq        -
-[-        ] process > minimap2     -
 
 [-        ] process > multi2single  -
 [-        ] process > fastq         -
@@ -22,6 +20,10 @@ Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/sampledata/HEK293T_BP_ME
 [-        ] process > tombo3        -
 [-        ] process > nanom6a       -
 [-        ] process > differr       -
+[-        ] process > eligos        -
+[-        ] process > mines         -
+[-        ] process > dena          -
+[-        ] process > epinanoSVM    -
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Output `set` must define at least two component -- Check process `tombo1`
@@ -31,8 +33,10 @@ WARN: Input `set` must define at least two component -- Check process `tombo3`
 WARN: Input `set` must define at least two component -- Check process `nanom6a`
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
 
-[f1/3bfba0] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
 [-        ] process > fastq            -
 [-        ] process > minimap2         -
 [-        ] process > minimap2Merge    -
@@ -53,10 +57,6 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 [-        ] process > xpore2           -
 [-        ] process > nanocompore1     -
 [-        ] process > nanocompore2     -
-[-        ] process > m6anet1          -
-[-        ] process > m6anet2          -
-[-        ] process > yanocomp1        -
-[-        ] process > yanocomp2        -
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Output `set` must define at least two component -- Check process `tombo1`
@@ -72,16 +72,14 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
 
-[f1/3bfba0] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
-[d6/406e63] process > fastq (2)        [100%] 2 of 2, cached: 2 ✔
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)        [100%] 2 of 2, cached: 2 ✔
 [-        ] process > minimap2         -
 [-        ] process > minimap2Merge    -
-[06/61fbef] process > tombo1 (1)       [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)       [100%] 1 of 1, cached: 1 ✔
 [-        ] process > tombo2           -
-[-        ] process > tombo3           [  0%] 0 of 1
+[f7/68519c] process > tombo3 (1)       [100%] 1 of 1, cached: 1 ✔
 [-        ] process > nanom6a          -
 [-        ] process > differr          -
 [-        ] process > eligos           -
@@ -89,7 +87,7 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 [-        ] process > dena             -
 [-        ] process > epinanoSVM       -
 [-        ] process > epinanoError     -
-[e5/92d01c] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[c7/571065] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
 [-        ] process > drummer          -
 [-        ] process > nanopolish1      -
 [-        ] process > xpore1           -
@@ -119,68 +117,23 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 
-[f1/3bfba0] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
-[d6/406e63] process > fastq (2)        [100%] 2 of 2, cached: 2 ✔
-[69/0bb421] process > minimap2 (1)     [100%] 2 of 2, cached: 2 ✔
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)        [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (2)     [100%] 2 of 2, cached: 2 ✔
 [-        ] process > minimap2Merge    -
-[06/61fbef] process > tombo1 (1)       [100%] 1 of 1, cached: 1 ✔
-[-        ] process > tombo2           -
-[-        ] process > tombo3           [  0%] 0 of 1
-[-        ] process > nanom6a          -
-[-        ] process > differr          -
-[-        ] process > eligos           -
-[-        ] process > mines            -
-[-        ] process > dena             -
-[-        ] process > epinanoSVM       -
-[-        ] process > epinanoError     -
-[e5/92d01c] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
-[-        ] process > drummer          -
-[-        ] process > nanopolish1      -
-[-        ] process > xpore1           -
-[-        ] process > xpore2           -
-[-        ] process > nanocompore1     -
-[-        ] process > nanocompore2     -
-[-        ] process > m6anet1          -
-[-        ] process > m6anet2          -
-[-        ] process > yanocomp1        -
-[-        ] process > yanocomp2        -
-[-        ] process > postprocessing   -
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Output `set` must define at least two component -- Check process `tombo1`
-WARN: Input `set` must define at least two component -- Check process `tombo2`
-WARN: Output `set` must define at least two component -- Check process `tombo2`
-WARN: Input `set` must define at least two component -- Check process `tombo3`
-WARN: Input `set` must define at least two component -- Check process `nanom6a`
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Input `set` must define at least two component -- Check process `mines`
-WARN: Input `set` must define at least two component -- Check process `dena`
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-WARN: Operator `choice` is deprecated -- it will be removed in a future release
-
-executor >  slurm (3)
-[f1/3bfba0] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
-[d6/406e63] process > fastq (2)        [100%] 2 of 2, cached: 2 ✔
-[69/0bb421] process > minimap2 (1)     [100%] 2 of 2, cached: 2 ✔
-[-        ] process > minimap2Merge    -
-[06/61fbef] process > tombo1 (1)       [100%] 1 of 1, cached: 1 ✔
-[35/f98d2a] process > tombo2 (1)       [  0%] 0 of 1
-[61/9e0158] process > tombo3 (1)       [  0%] 0 of 1
+[df/093340] process > tombo1 (1)       [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)       [100%] 1 of 1, cached: 1 ✔
+[f7/68519c] process > tombo3 (1)       [100%] 1 of 1, cached: 1 ✔
 [-        ] process > nanom6a          [  0%] 0 of 1
 [-        ] process > differr          -
-[b8/4e3a1b] process > eligos (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > eligos           -
 [-        ] process > mines            -
 [-        ] process > dena             -
 [-        ] process > epinanoSVM       -
 [-        ] process > epinanoError     -
-[e5/92d01c] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
-[ac/29d0e6] process > drummer (1)      [100%] 1 of 1, cached: 1 ✔
-[-        ] process > nanopolish1      [  0%] 0 of 2
+[c7/571065] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
 [-        ] process > xpore1           -
 [-        ] process > xpore2           -
 [-        ] process > nanocompore1     -
@@ -208,34 +161,33 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 
-executor >  slurm (6)
-[f1/3bfba0] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
-[d6/406e63] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
-[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
-[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
-[06/61fbef] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
-[35/f98d2a] process > tombo2 (1)        [  0%] 0 of 1
-[61/9e0158] process > tombo3 (1)        [  0%] 0 of 1
-[c6/ee70ca] process > nanom6a (1)       [  0%] 0 of 1
-[c7/034e01] process > differr (1)       [  0%] 0 of 1
-[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
-[-        ] process > mines             -
-[-        ] process > dena              -
-[-        ] process > epinanoSVM        -
-[-        ] process > epinanoError      -
-[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
-[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
-[01/aaaa89] process > nanopolish1 (1)   [  0%] 0 of 2
-[-        ] process > xpore1            -
-[-        ] process > xpore2            -
-[-        ] process > nanocompore1      -
-[-        ] process > nanocompore2      -
-[-        ] process > m6anet1           -
-[-        ] process > m6anet2           -
-[-        ] process > yanocomp1         -
-[-        ] process > yanocomp2         -
-[-        ] process > postprocessing    -
-Pulling Singularity image docker://bproject/dena:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-dena-v1.img]
+executor >  slurm (1)
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)        [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (2)     [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2Merge    -
+[df/093340] process > tombo1 (1)       [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)       [100%] 1 of 1, cached: 1 ✔
+[f7/68519c] process > tombo3 (1)       [100%] 1 of 1, cached: 1 ✔
+[e4/75cff2] process > nanom6a (1)      [  0%] 0 of 1
+[-        ] process > differr          -
+[5e/2a8133] process > eligos (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines            [  0%] 0 of 1
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[c7/571065] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)      [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)  [100%] 1 of 1, cached: 1
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Output `set` must define at least two component -- Check process `tombo1`
@@ -254,34 +206,34 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 
-executor >  slurm (6)
-[f1/3bfba0] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
-[d6/406e63] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
-[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
-[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
-[06/61fbef] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
-[35/f98d2a] process > tombo2 (1)        [  0%] 0 of 1
-[61/9e0158] process > tombo3 (1)        [  0%] 0 of 1
-[c6/ee70ca] process > nanom6a (1)       [  0%] 0 of 1
-[c7/034e01] process > differr (1)       [  0%] 0 of 1
-[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
-[-        ] process > mines             -
-[-        ] process > dena              -
+executor >  slurm (5)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (2)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [100%] 1 of 1, cached: 1 ✔
+[f7/68519c] process > tombo3 (1)        [100%] 1 of 1, cached: 1 ✔
+[e4/75cff2] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[76/5f1f42] process > mines (1)         [  0%] 0 of 1
+[-        ] process > dena              [  0%] 0 of 1
 [-        ] process > epinanoSVM        -
 [-        ] process > epinanoError      -
-[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
-[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
-[01/aaaa89] process > nanopolish1 (1)   [  0%] 0 of 2
-[-        ] process > xpore1            -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[6d/1bec31] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[b9/9c49b6] process > xpore1 (2)        [  0%] 0 of 2
 [-        ] process > xpore2            -
-[-        ] process > nanocompore1      -
-[-        ] process > nanocompore2      -
+[ae/e2f0d2] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
 [-        ] process > m6anet1           -
 [-        ] process > m6anet2           -
-[-        ] process > yanocomp1         -
+[39/7474c2] process > yanocomp1 (1)     [  0%] 0 of 2
 [-        ] process > yanocomp2         -
 [-        ] process > postprocessing    -
-Pulling Singularity image docker://bproject/dena:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-dena-v1.img]
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Output `set` must define at least two component -- Check process `tombo1`
@@ -300,34 +252,34 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 
-executor >  slurm (6)
-[f1/3bfba0] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
-[d6/406e63] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
-[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
-[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
-[06/61fbef] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
-[35/f98d2a] process > tombo2 (1)        [  0%] 0 of 1
-[61/9e0158] process > tombo3 (1)        [  0%] 0 of 1
-[c6/ee70ca] process > nanom6a (1)       [  0%] 0 of 1
-[c7/034e01] process > differr (1)       [  0%] 0 of 1
-[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
-[-        ] process > mines             -
-[-        ] process > dena              -
+executor >  slurm (7)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (2)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [100%] 1 of 1, cached: 1 ✔
+[f7/68519c] process > tombo3 (1)        [100%] 1 of 1, cached: 1 ✔
+[e4/75cff2] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[76/5f1f42] process > mines (1)         [  0%] 0 of 1
+[37/66e3b0] process > dena (1)          [  0%] 0 of 1
 [-        ] process > epinanoSVM        -
 [-        ] process > epinanoError      -
-[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
-[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
-[01/aaaa89] process > nanopolish1 (1)   [  0%] 0 of 2
-[-        ] process > xpore1            -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[6d/1bec31] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[b9/9c49b6] process > xpore1 (2)        [  0%] 0 of 2
 [-        ] process > xpore2            -
-[-        ] process > nanocompore1      -
-[-        ] process > nanocompore2      -
+[ae/e2f0d2] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
 [-        ] process > m6anet1           -
 [-        ] process > m6anet2           -
-[-        ] process > yanocomp1         -
+[82/2bb934] process > yanocomp1 (2)     [  0%] 0 of 2
 [-        ] process > yanocomp2         -
 [-        ] process > postprocessing    -
-Pulling Singularity image docker://bproject/dena:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-dena-v1.img]
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Output `set` must define at least two component -- Check process `tombo1`
@@ -345,15 +297,72 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
-Error executing process > 'nanom6a (1)'
+
+WARN: Killing running tasks (6)
+executor >  slurm (7)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (2)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [100%] 1 of 1, cached: 1 ✔
+[f7/68519c] process > tombo3 (1)        [100%] 1 of 1, cached: 1 ✔
+[e4/75cff2] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[76/5f1f42] process > mines (1)         [  0%] 0 of 1 ✔
+[37/66e3b0] process > dena (1)          [  0%] 0 of 1
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[6d/1bec31] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[b9/9c49b6] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[ae/e2f0d2] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[82/2bb934] process > yanocomp1 (2)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+Error executing process > 'mines (1)'
 
 Caused by:
-  Process `nanom6a (1)` terminated with an error exit status (1)
+  Process `mines (1)` terminated with an error exit status (1)
 
 Command executed:
 
-  java -jar /picard/build/libs/picard.jar CreateSequenceDictionary R=genome.fa O=genome.dict
-  java -jar /picard/build/libs/picard.jar CreateSequenceDictionary R=transcriptome.fa O=transcriptome.dict
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/
+  #		mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/mines/
+  
+  #		wig2bed < /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/tomboDenovo/output_filename.fraction_modified_reads.plus.wig > /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/output_filename.fraction_modified_reads.plus.wig.bed
+  		wig2bed < /globalscratch/ulb/mlg/hdmarmol/smalltest/results/tomboDenovo/sample.level_samp_comp_detect.statistic.plus > /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/output_filename.fraction_modified_reads.plus.wig.bed
+  
+  
+  #		wig2bed < /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/tomboDenovo/output_filename.fraction_modified_reads.plus.wig > /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/mines/output_filename.fraction_modified_reads.plus.wig.bed
+  
+  		python3 /MINES/cDNA_MINES.py --fraction_modified /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/output_filename.fraction_modified_reads.plus.wig.bed --coverage /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/tomboDenovo/output_filename.coverage.plus.bedgraph --output /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/m6A_output_filename.bed --ref transcriptome.fa --kmer_models /MINES/Final_Models/names.txt
+  		
+  #		python3 /MINES/cDNA_MINES.py --fraction_modified /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/mines/output_filename.fraction_modified_reads.plus.wig.bed --coverage /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/tomboDenovo/output_filename.coverage.plus.bedgraph --output /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/mines/m6A_output_filename.bed --ref transcriptome.fa --kmer_models /MINES/Final_Models/names.txt
 
 Command exit status:
   1
@@ -363,76 +372,43 @@ Command output:
 
 Command error:
   INFO:    Environment variable SINGULARITYENV_TMPDIR is set, but APPTAINERENV_TMPDIR is preferred
-  INFO	2025-01-31 15:01:37	CreateSequenceDictionary	
-  
-  ********** NOTE: Picard's command line syntax is changing.
-  **********
-  ********** For more information, please see:
-  ********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
-  **********
-  ********** The command line looks like this in the new syntax:
-  **********
-  **********    CreateSequenceDictionary -R genome.fa -O genome.dict
-  **********
-  
-  
-  15:01:38.495 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/picard/build/libs/picard.jar!/com/intel/gkl/native/libgkl_compression.so
-  [Fri Jan 31 15:01:38 UTC 2025] CreateSequenceDictionary OUTPUT=genome.dict REFERENCE=genome.fa    TRUNCATE_NAMES_AT_WHITESPACE=true NUM_SEQUENCES=2147483647 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
-  [Fri Jan 31 15:01:38 UTC 2025] Executing as hdmarmol@lm4-w040 on Linux 4.18.0-513.11.1.el8_9.x86_64 amd64; OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.26.10-4-ga03ed41-SNAPSHOT
-  [Fri Jan 31 15:01:38 UTC 2025] picard.sam.CreateSequenceDictionary done. Elapsed time: 0.00 minutes.
-  Runtime.totalMemory()=259522560
-  To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
-  Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
-  	at htsjdk.samtools.reference.AbstractIndexedFastaSequenceFile.getSubsequenceAt(AbstractIndexedFastaSequenceFile.java:184)
-  	at htsjdk.samtools.reference.IndexedFastaSequenceFile.getSubsequenceAt(IndexedFastaSequenceFile.java:49)
-  	at htsjdk.samtools.reference.AbstractIndexedFastaSequenceFile.getSequence(AbstractIndexedFastaSequenceFile.java:162)
-  	at htsjdk.samtools.reference.IndexedFastaSequenceFile.getSequence(IndexedFastaSequenceFile.java:49)
-  	at htsjdk.samtools.reference.AbstractIndexedFastaSequenceFile.nextSequence(AbstractIndexedFastaSequenceFile.java:139)
-  	at htsjdk.samtools.reference.IndexedFastaSequenceFile.nextSequence(IndexedFastaSequenceFile.java:49)
-  	at picard.util.SequenceDictionaryUtils$SamSequenceRecordsIterator.<init>(SequenceDictionaryUtils.java:84)
-  	at picard.sam.CreateSequenceDictionary.lambda$getSamSequenceRecordsIterable$0(CreateSequenceDictionary.java:169)
-  	at picard.sam.CreateSequenceDictionary$$Lambda$110/0x0000000100275c40.iterator(Unknown Source)
-  	at picard.sam.CreateSequenceDictionary.doWork(CreateSequenceDictionary.java:234)
-  	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:308)
-  	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:103)
-  	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:113)
+  .command.sh: line 6: /globalscratch/ulb/mlg/hdmarmol/smalltest/results/tomboDenovo/sample.level_samp_comp_detect.statistic.plus: No such file or directory
 
 Work dir:
-  /globalscratch/users/h/d/hdmarmol/work/c6/ee70caad37d9047229b87fd733a563
+  /globalscratch/users/h/d/hdmarmol/smalltest/work/76/5f1f427d1e6d08b4d448752f293fa1
 
 Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
 
 
-WARN: Killing running tasks (5)
 
-executor >  slurm (6)
-[f1/3bfba0] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
-[d6/406e63] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
-[69/0bb421] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
-[98/98231a] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
-[06/61fbef] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
-[-        ] process > tombo2 (1)        -
-[-        ] process > tombo3 (1)        -
-[c6/ee70ca] process > nanom6a (1)       [100%] 1 of 1, failed: 1 ✘
-[-        ] process > differr (1)       -
-[b8/4e3a1b] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
-[-        ] process > mines             -
-[-        ] process > dena              -
+executor >  slurm (7)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[46/29f54e] process > fastq (1)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (2)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1, cached: 1 ✔
+[3a/7869db] process > tombo2 (1)        [100%] 1 of 1, cached: 1 ✔
+[f7/68519c] process > tombo3 (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > nanom6a (1)       -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1, cached: 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[76/5f1f42] process > mines (1)         [100%] 1 of 1, failed: 1 ✘
+[-        ] process > dena (1)          -
 [-        ] process > epinanoSVM        -
 [-        ] process > epinanoError      -
-[e5/92d01c] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
-[ac/29d0e6] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
-[-        ] process > nanopolish1 (1)   -
-[-        ] process > xpore1            -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[6d/1bec31] process > nanopolish1 (2)   [100%] 2 of 2, cached: 2 ✔
+[-        ] process > xpore1 (2)        -
 [-        ] process > xpore2            -
-[-        ] process > nanocompore1      -
-[-        ] process > nanocompore2      -
+[ae/e2f0d2] process > nanocompore1 (2)  [100%] 2 of 2, cached: 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1, cached: 1 ✔
 [-        ] process > m6anet1           -
 [-        ] process > m6anet2           -
-[-        ] process > yanocomp1         -
+[-        ] process > yanocomp1 (2)     -
 [-        ] process > yanocomp2         -
 [-        ] process > postprocessing    -
-Pulling Singularity image docker://bproject/dena:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-dena-v1.img]
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Output `set` must define at least two component -- Check process `tombo1`
@@ -450,15 +426,25 @@ WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
 WARN: Operator `choice` is deprecated -- it will be removed in a future release
-Error executing process > 'nanom6a (1)'
+Error executing process > 'mines (1)'
 
 Caused by:
-  Process `nanom6a (1)` terminated with an error exit status (1)
+  Process `mines (1)` terminated with an error exit status (1)
 
 Command executed:
 
-  java -jar /picard/build/libs/picard.jar CreateSequenceDictionary R=genome.fa O=genome.dict
-  java -jar /picard/build/libs/picard.jar CreateSequenceDictionary R=transcriptome.fa O=transcriptome.dict
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/
+  #		mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/mines/
+  
+  #		wig2bed < /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/tomboDenovo/output_filename.fraction_modified_reads.plus.wig > /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/output_filename.fraction_modified_reads.plus.wig.bed
+  		wig2bed < /globalscratch/ulb/mlg/hdmarmol/smalltest/results/tomboDenovo/sample.level_samp_comp_detect.statistic.plus > /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/output_filename.fraction_modified_reads.plus.wig.bed
+  
+  
+  #		wig2bed < /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/tomboDenovo/output_filename.fraction_modified_reads.plus.wig > /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/mines/output_filename.fraction_modified_reads.plus.wig.bed
+  
+  		python3 /MINES/cDNA_MINES.py --fraction_modified /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/output_filename.fraction_modified_reads.plus.wig.bed --coverage /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/tomboDenovo/output_filename.coverage.plus.bedgraph --output /globalscratch/ulb/mlg/hdmarmol/smalltest/results/WT/mines/m6A_output_filename.bed --ref transcriptome.fa --kmer_models /MINES/Final_Models/names.txt
+  		
+  #		python3 /MINES/cDNA_MINES.py --fraction_modified /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/mines/output_filename.fraction_modified_reads.plus.wig.bed --coverage /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/tomboDenovo/output_filename.coverage.plus.bedgraph --output /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/mines/m6A_output_filename.bed --ref transcriptome.fa --kmer_models /MINES/Final_Models/names.txt
 
 Command exit status:
   1
@@ -468,42 +454,10 @@ Command output:
 
 Command error:
   INFO:    Environment variable SINGULARITYENV_TMPDIR is set, but APPTAINERENV_TMPDIR is preferred
-  INFO	2025-01-31 15:01:37	CreateSequenceDictionary	
-  
-  ********** NOTE: Picard's command line syntax is changing.
-  **********
-  ********** For more information, please see:
-  ********** https://github.com/broadinstitute/picard/wiki/Command-Line-Syntax-Transition-For-Users-(Pre-Transition)
-  **********
-  ********** The command line looks like this in the new syntax:
-  **********
-  **********    CreateSequenceDictionary -R genome.fa -O genome.dict
-  **********
-  
-  
-  15:01:38.495 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/picard/build/libs/picard.jar!/com/intel/gkl/native/libgkl_compression.so
-  [Fri Jan 31 15:01:38 UTC 2025] CreateSequenceDictionary OUTPUT=genome.dict REFERENCE=genome.fa    TRUNCATE_NAMES_AT_WHITESPACE=true NUM_SEQUENCES=2147483647 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json USE_JDK_DEFLATER=false USE_JDK_INFLATER=false
-  [Fri Jan 31 15:01:38 UTC 2025] Executing as hdmarmol@lm4-w040 on Linux 4.18.0-513.11.1.el8_9.x86_64 amd64; OpenJDK 64-Bit Server VM 11.0.13+7-b1751.21; Deflater: Intel; Inflater: Intel; Provider GCS is not available; Picard version: 2.26.10-4-ga03ed41-SNAPSHOT
-  [Fri Jan 31 15:01:38 UTC 2025] picard.sam.CreateSequenceDictionary done. Elapsed time: 0.00 minutes.
-  Runtime.totalMemory()=259522560
-  To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
-  Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
-  	at htsjdk.samtools.reference.AbstractIndexedFastaSequenceFile.getSubsequenceAt(AbstractIndexedFastaSequenceFile.java:184)
-  	at htsjdk.samtools.reference.IndexedFastaSequenceFile.getSubsequenceAt(IndexedFastaSequenceFile.java:49)
-  	at htsjdk.samtools.reference.AbstractIndexedFastaSequenceFile.getSequence(AbstractIndexedFastaSequenceFile.java:162)
-  	at htsjdk.samtools.reference.IndexedFastaSequenceFile.getSequence(IndexedFastaSequenceFile.java:49)
-  	at htsjdk.samtools.reference.AbstractIndexedFastaSequenceFile.nextSequence(AbstractIndexedFastaSequenceFile.java:139)
-  	at htsjdk.samtools.reference.IndexedFastaSequenceFile.nextSequence(IndexedFastaSequenceFile.java:49)
-  	at picard.util.SequenceDictionaryUtils$SamSequenceRecordsIterator.<init>(SequenceDictionaryUtils.java:84)
-  	at picard.sam.CreateSequenceDictionary.lambda$getSamSequenceRecordsIterable$0(CreateSequenceDictionary.java:169)
-  	at picard.sam.CreateSequenceDictionary$$Lambda$110/0x0000000100275c40.iterator(Unknown Source)
-  	at picard.sam.CreateSequenceDictionary.doWork(CreateSequenceDictionary.java:234)
-  	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:308)
-  	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:103)
-  	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:113)
+  .command.sh: line 6: /globalscratch/ulb/mlg/hdmarmol/smalltest/results/tomboDenovo/sample.level_samp_comp_detect.statistic.plus: No such file or directory
 
 Work dir:
-  /globalscratch/users/h/d/hdmarmol/work/c6/ee70caad37d9047229b87fd733a563
+  /globalscratch/users/h/d/hdmarmol/smalltest/work/76/5f1f427d1e6d08b4d448752f293fa1
 
 Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
 

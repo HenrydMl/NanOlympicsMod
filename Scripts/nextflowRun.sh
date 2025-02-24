@@ -12,11 +12,11 @@
 module purge
 module load Java/11.0.20
 
-WORKDIR=$GLOBALSCRATCH
+WORKDIR=/globalscratch/ulb/mlg/hdmarmol/smalltest
 #mkdir -p $WORKDIR
 cd $WORKDIR
 
 export SINGULARITY_CACHEDIR=/globalscratch/ulb/mlg/hdmarmol/caches
 export APPTAINER_CACHEDIR=/globalscratch/ulb/mlg/hdmarmol/caches
 
-/home/ulb/bctr/bbeahan/nextflow -c /home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.conf run /home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf -resume
+/home/ulb/bctr/bbeahan/nextflow -c /home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.conf run /home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf

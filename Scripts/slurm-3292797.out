@@ -1,0 +1,973 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) releases/2023a   2) tis/2018.01
+N E X T F L O W  ~  version 22.10.0
+Launching `/home/ulb/mlg/hdmarmol/maestriNanolympicMod/myNanolympics/NanOlympicsMod/pipeline.nf` [admiring_volhard] DSL1 - revision: 75857156f9
+WARN: The `into` operator should be used to connect two or more target channels -- consider replacing it with `.set { bed_nanocompore }`
+SampleName: MAESTRI_WT, Condition: WT, DataPath: /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_WT, WT, /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_WT1_Chromosome1_basecalled/workspace/]
+SampleName: MAESTRI_MD, Condition: KO, DataPath: /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/
+Tuple: [MAESTRI_MD, KO, /globalscratch/ulb/mlg/hdmarmol/smalltest/inputData/HEK293T_BP_METTL3Inhibitor1_Chromosome1_basecalled/workspace/]
+[-        ] process > multi2single  -
+[-        ] process > fastq         -
+[-        ] process > minimap2      -
+[-        ] process > minimap2Merge -
+[-        ] process > tombo1        -
+[-        ] process > tombo2        -
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)        [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2         -
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[-        ] process > nanodoc          -
+[-        ] process > drummer          -
+Pulling Singularity image docker://hdmarmol/tombo-vbz:v01 [cache /globalscratch/ulb/mlg/hdmarmol/caches/hdmarmol-tombo-vbz-v01.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)        [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)     [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          -
+[-        ] process > eligos           -
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[c7/571065] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[-        ] process > drummer          -
+[-        ] process > nanopolish1      -
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Pulling Singularity image docker://hdmarmol/tombo-vbz:v01 [cache /globalscratch/ulb/mlg/hdmarmol/caches/hdmarmol-tombo-vbz-v01.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+[a5/5f9ff8] process > multi2single (2) [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)        [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)     [100%] 2 of 2, cached: 2 ✔
+[-        ] process > minimap2Merge    -
+[-        ] process > tombo1           -
+[-        ] process > tombo2           -
+[-        ] process > tombo3           -
+[-        ] process > nanom6a          -
+[-        ] process > differr          [  0%] 0 of 1
+[5e/2a8133] process > eligos (1)       [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines            -
+[-        ] process > dena             -
+[-        ] process > epinanoSVM       -
+[-        ] process > epinanoError     -
+[c7/571065] process > nanodoc (1)      [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)      [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)  [100%] 2 of 2, cached: 2 ✔
+[-        ] process > xpore1           -
+[-        ] process > xpore2           -
+[-        ] process > nanocompore1     -
+[-        ] process > nanocompore2     -
+[-        ] process > m6anet1          -
+[-        ] process > m6anet2          -
+[-        ] process > yanocomp1        -
+[-        ] process > yanocomp2        -
+[-        ] process > postprocessing   -
+Pulling Singularity image docker://hdmarmol/tombo-vbz:v01 [cache /globalscratch/ulb/mlg/hdmarmol/caches/hdmarmol-tombo-vbz-v01.img]
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
+Pulling Singularity image docker://bproject/nanocompore:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-nanocompore-v1.img]
+Pulling Singularity image docker://bproject/yanocomp:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-yanocomp-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (1)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [  0%] 0 of 1
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Pulling Singularity image docker://hdmarmol/tombo-vbz:v01 [cache /globalscratch/ulb/mlg/hdmarmol/caches/hdmarmol-tombo-vbz-v01.img]
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
+Pulling Singularity image docker://bproject/nanocompore:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-nanocompore-v1.img]
+Pulling Singularity image docker://bproject/yanocomp:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-yanocomp-v1.img]
+Pulling Singularity image docker://bproject/xpore:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-xpore-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (1)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [  0%] 0 of 1
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[-        ] process > xpore1            -
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Pulling Singularity image docker://hdmarmol/tombo-vbz:v01 [cache /globalscratch/ulb/mlg/hdmarmol/caches/hdmarmol-tombo-vbz-v01.img]
+Pulling Singularity image docker://bproject/m6anet:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-m6anet-v1.img]
+Pulling Singularity image docker://bproject/nanocompore:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-nanocompore-v1.img]
+Pulling Singularity image docker://bproject/yanocomp:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-yanocomp-v1.img]
+Pulling Singularity image docker://bproject/xpore:v1 [cache /globalscratch/ulb/mlg/hdmarmol/caches/bproject-xpore-v1.img]
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Output `set` must define at least two component -- Check process `tombo1`
+WARN: Input `set` must define at least two component -- Check process `tombo2`
+WARN: Output `set` must define at least two component -- Check process `tombo2`
+WARN: Input `set` must define at least two component -- Check process `tombo3`
+WARN: Input `set` must define at least two component -- Check process `nanom6a`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Input `set` must define at least two component -- Check process `mines`
+WARN: Input `set` must define at least two component -- Check process `dena`
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+WARN: Operator `choice` is deprecated -- it will be removed in a future release
+
+executor >  slurm (3)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [  0%] 0 of 1
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      -
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (3)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [  0%] 0 of 1
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[-        ] process > nanocompore1      [  0%] 0 of 1
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+executor >  slurm (5)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [  0%] 0 of 1
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[ae/e2f0d2] process > nanocompore1 (1)  [  0%] 0 of 2
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (5)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [  0%] 0 of 1
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[ae/e2f0d2] process > nanocompore1 (1)  [  0%] 0 of 2
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (5)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[ae/e2f0d2] process > nanocompore1 (1)  [  0%] 0 of 2
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (5)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[ae/e2f0d2] process > nanocompore1 (1)  [ 50%] 1 of 2
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (5)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[-        ] process > nanocompore2      -
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (5)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[-        ] process > nanocompore2      [  0%] 0 of 1
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (6)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [  0%] 0 of 1
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (6)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [  0%] 0 of 1
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (6)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[-        ] process > yanocomp1         -
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (8)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[-        ] process > tombo1            -
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[84/5964ef] process > yanocomp1 (1)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (9)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[84/5964ef] process > yanocomp1 (1)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (9)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [  0%] 0 of 1
+[-        ] process > tombo2            -
+[-        ] process > tombo3            -
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[84/5964ef] process > yanocomp1 (1)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (9)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1 ✔
+[-        ] process > tombo2            -
+[-        ] process > tombo3            [  0%] 0 of 1
+[-        ] process > nanom6a           -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[84/5964ef] process > yanocomp1 (1)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (12)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1 ✔
+[00/31a008] process > tombo2 (1)        [  0%] 0 of 1
+[4c/9eb63d] process > tombo3 (1)        [  0%] 0 of 1
+[6f/fda8f5] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena              [  0%] 0 of 1
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[84/5964ef] process > yanocomp1 (1)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (13)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1 ✔
+[00/31a008] process > tombo2 (1)        [  0%] 0 of 1
+[4c/9eb63d] process > tombo3 (1)        [  0%] 0 of 1
+[6f/fda8f5] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[1c/e52b8e] process > dena (1)          [  0%] 0 of 1
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[84/5964ef] process > yanocomp1 (1)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+
+executor >  slurm (13)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1 ✔
+[00/31a008] process > tombo2 (1)        [  0%] 0 of 1
+[4c/9eb63d] process > tombo3 (1)        [  0%] 0 of 1
+[6f/fda8f5] process > nanom6a (1)       [  0%] 0 of 1
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[1c/e52b8e] process > dena (1)          [  0%] 0 of 1
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[0d/2f4a84] process > xpore1 (2)        [  0%] 0 of 2
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[84/5964ef] process > yanocomp1 (1)     [  0%] 0 of 2
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Error executing process > 'yanocomp1 (2)'
+
+Caused by:
+  Process `yanocomp1 (2)` terminated with an error exit status (1)
+
+Command executed:
+
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/transcriptome/
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/genome/
+  
+  /bin/miniconda3/envs/yanocomp/bin/yanocomp prep -p 3 -e /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/nanopolish/transcriptome/eventalign_readName.txt -h /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/transcriptome/output.hdf5
+  
+  /bin/miniconda3/envs/yanocomp/bin/yanocomp prep -p 3 -e /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/nanopolish/transcriptome/eventalign_readName.txt -h /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/genome/output.hdf5 -g genome.gtf
+  
+  ln -s /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/transcriptome/output.hdf5 outputT.hdf5
+  ln -s /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/genome/output.hdf5 outputG.hdf5
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  INFO:    Environment variable SINGULARITYENV_TMPDIR is set, but APPTAINERENV_TMPDIR is preferred
+  2025-02-14 15:04:35,755 INFO     No GTF provided, records will be grouped by transcript
+  2025-02-14 15:05:12,875 INFO     Loading GTF records from genome.gtf
+  2025-02-14 15:05:16,058 INFO     22,477 transcript records loaded from GTF
+  multiprocessing.pool.RemoteTraceback: 
+  """
+  Traceback (most recent call last):
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+      result = (True, func(*args, **kwds))
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/prep.py", line 64, in collapse_chunk
+      chrom, gpos, strand, gene_id = transcript_to_genomic(
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/prep.py", line 26, in transcript_to_genomic
+      raise ValueError('position out of range')
+  ValueError: position out of range
+  """
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "/bin/miniconda3/envs/yanocomp/bin/yanocomp", line 8, in <module>
+      sys.exit(cli())
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+      return self.main(*args, **kwargs)
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 1053, in main
+      rv = self.invoke(ctx)
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 1659, in invoke
+      return _process_result(sub_ctx.command.invoke(sub_ctx))
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+      return __callback(*args, **kwargs)
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/opts.py", line 16, in _make_dataclass
+      return cmd(dynamic_dataclass(cls_name, bases=bases, **cli_kwargs))
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/prep.py", line 182, in nanopolish_collapse
+      save_events_to_hdf5(
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/io.py", line 180, in save_events_to_hdf5
+      for gene_id, chrom, strand, records in collapsed:
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/prep.py", line 154, in parallel_collapse
+      for chunk, gene_info in pool.imap_unordered(_collapse_func, ea_chunker):
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/multiprocessing/pool.py", line 870, in next
+      raise value
+  ValueError: position out of range
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/smalltest/work/7d/07383dbd18bf53b002abe168442f19
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+
+WARN: Killing running tasks (7)
+
+executor >  slurm (13)
+[a5/5f9ff8] process > multi2single (2)  [100%] 2 of 2, cached: 2 ✔
+[3c/fb05e9] process > fastq (2)         [100%] 2 of 2, cached: 2 ✔
+[02/820391] process > minimap2 (1)      [100%] 2 of 2, cached: 2 ✔
+[63/8ea634] process > minimap2Merge (1) [100%] 1 of 1, cached: 1 ✔
+[df/093340] process > tombo1 (1)        [100%] 1 of 1 ✔
+[-        ] process > tombo2 (1)        -
+[-        ] process > tombo3 (1)        -
+[-        ] process > nanom6a (1)       -
+[e9/51fa1a] process > differr (1)       [100%] 1 of 1 ✔
+[5e/2a8133] process > eligos (1)        [100%] 1 of 1, cached: 1 ✔
+[-        ] process > mines             -
+[-        ] process > dena (1)          -
+[-        ] process > epinanoSVM        -
+[-        ] process > epinanoError      -
+[c7/571065] process > nanodoc (1)       [100%] 1 of 1, cached: 1 ✔
+[7d/9e58c2] process > drummer (1)       [100%] 1 of 1, cached: 1 ✔
+[26/8451e7] process > nanopolish1 (1)   [100%] 2 of 2, cached: 2 ✔
+[-        ] process > xpore1 (2)        -
+[-        ] process > xpore2            -
+[4d/8763e0] process > nanocompore1 (2)  [100%] 2 of 2 ✔
+[ba/82c682] process > nanocompore2 (1)  [100%] 1 of 1 ✔
+[-        ] process > m6anet1           -
+[-        ] process > m6anet2           -
+[84/5964ef] process > yanocomp1 (1)     [200%] 2 of 1, failed: 2 ✘
+[-        ] process > yanocomp2         -
+[-        ] process > postprocessing    -
+Error executing process > 'yanocomp1 (2)'
+
+Caused by:
+  Process `yanocomp1 (2)` terminated with an error exit status (1)
+
+Command executed:
+
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/transcriptome/
+  mkdir -p /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/genome/
+  
+  /bin/miniconda3/envs/yanocomp/bin/yanocomp prep -p 3 -e /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/nanopolish/transcriptome/eventalign_readName.txt -h /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/transcriptome/output.hdf5
+  
+  /bin/miniconda3/envs/yanocomp/bin/yanocomp prep -p 3 -e /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/nanopolish/transcriptome/eventalign_readName.txt -h /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/genome/output.hdf5 -g genome.gtf
+  
+  ln -s /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/transcriptome/output.hdf5 outputT.hdf5
+  ln -s /globalscratch/ulb/mlg/hdmarmol/smalltest/results/KO/MAESTRI_MD/yanocomp/genome/output.hdf5 outputG.hdf5
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  INFO:    Environment variable SINGULARITYENV_TMPDIR is set, but APPTAINERENV_TMPDIR is preferred
+  2025-02-14 15:04:35,755 INFO     No GTF provided, records will be grouped by transcript
+  2025-02-14 15:05:12,875 INFO     Loading GTF records from genome.gtf
+  2025-02-14 15:05:16,058 INFO     22,477 transcript records loaded from GTF
+  multiprocessing.pool.RemoteTraceback: 
+  """
+  Traceback (most recent call last):
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/multiprocessing/pool.py", line 125, in worker
+      result = (True, func(*args, **kwds))
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/prep.py", line 64, in collapse_chunk
+      chrom, gpos, strand, gene_id = transcript_to_genomic(
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/prep.py", line 26, in transcript_to_genomic
+      raise ValueError('position out of range')
+  ValueError: position out of range
+  """
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "/bin/miniconda3/envs/yanocomp/bin/yanocomp", line 8, in <module>
+      sys.exit(cli())
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+      return self.main(*args, **kwargs)
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 1053, in main
+      rv = self.invoke(ctx)
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 1659, in invoke
+      return _process_result(sub_ctx.command.invoke(sub_ctx))
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+      return ctx.invoke(self.callback, **ctx.params)
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+      return __callback(*args, **kwargs)
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/opts.py", line 16, in _make_dataclass
+      return cmd(dynamic_dataclass(cls_name, bases=bases, **cli_kwargs))
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/prep.py", line 182, in nanopolish_collapse
+      save_events_to_hdf5(
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/io.py", line 180, in save_events_to_hdf5
+      for gene_id, chrom, strand, records in collapsed:
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/site-packages/yanocomp/prep.py", line 154, in parallel_collapse
+      for chunk, gene_info in pool.imap_unordered(_collapse_func, ea_chunker):
+    File "/bin/miniconda3/envs/yanocomp/lib/python3.9/multiprocessing/pool.py", line 870, in next
+      raise value
+  ValueError: position out of range
+
+Work dir:
+  /globalscratch/users/h/d/hdmarmol/smalltest/work/7d/07383dbd18bf53b002abe168442f19
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+
+
+
